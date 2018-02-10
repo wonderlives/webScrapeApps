@@ -1,0 +1,422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_attribute"
+			],
+			[
+				"re",
+				"reviews\tstatement"
+			],
+			[
+				"out",
+				"outputId"
+			],
+			[
+				"lef",
+				"leafletOutput"
+			],
+			[
+				"tab",
+				"tabPanel"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"n_",
+				"n_records"
+			],
+			[
+				"hidden",
+				"hidden_error_term"
+			],
+			[
+				"weight",
+				"weights_hidden_output"
+			],
+			[
+				"hid",
+				"hidden_output"
+			],
+			[
+				"hidd",
+				"hidden_input"
+			],
+			[
+				"w",
+				"weights_input_hidden"
+			],
+			[
+				"hidde",
+				"hidden_error_term"
+			],
+			[
+				"outpu",
+				"output_error_term"
+			],
+			[
+				"weigh",
+				"weights_hidden_output"
+			],
+			[
+				"we",
+				"weights_input_to_hidden"
+			],
+			[
+				"learn",
+				"learnrate"
+			],
+			[
+				"error",
+				"error_term"
+			],
+			[
+				"lear",
+				"learnrate"
+			],
+			[
+				"err",
+				"error_term"
+			],
+			[
+				"si",
+				"sigmoid_prime"
+			],
+			[
+				"to",
+				"tolerance"
+			],
+			[
+				"ac",
+				"actions_to_take"
+			],
+			[
+				"defaul",
+				"default_score"
+			],
+			[
+				"valid",
+				"valid_actions"
+			],
+			[
+				"upadt",
+				"update_delay"
+			],
+			[
+				"va",
+				"valid_actions"
+			],
+			[
+				"log",
+				"log_metrics"
+			],
+			[
+				"enfor",
+				"enforce_deadline"
+			],
+			[
+				"pa",
+				"pairs"
+			],
+			[
+				"sol",
+				"solved_so_far"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"int(\"9\"*20)",
+			"\"9\"*8",
+			"def x(r):",
+			"def test(x):",
+			"python",
+			"print(4)",
+			"test(4)",
+			"test(3",
+			"test(3)",
+			"run",
+			"python ",
+			"cd",
+			"ls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/roger/.bash_profile",
+		"/Users/roger/DataScience/Scrape/public-amazon-crawler/export.py",
+		"/Users/roger/.ssh/MyKeyPair.pem",
+		"/Users/roger/.ssh/known_hosts",
+		"/Users/roger/anaconda3/etc/jupyter/jupyter_notebook_config.json",
+		"/Users/roger/environment.txt",
+		"/Users/roger/environmwent.yml",
+		"/Users/roger/.jupyter/nbconfig/notebook.json",
+		"/Users/roger/.jupyter/nbconfig/jupyter_notebook_config.json",
+		"/Users/roger/.jupyter/nbconfig/jupyter_notebook_config_try.json",
+		"/Users/roger/environment.yml",
+		"/Users/roger/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin",
+		"/Users/roger/.bash_profile-anaconda3.bak",
+		"/Users/roger/.bash_history",
+		"/Users/roger/anaconda3/pkgs/nb_conda-2.2.1-py36h349edbb_0/lib/python3.6/site-packages/nb_conda/envmanager.py",
+		"/Users/roger/.jupyter/jupyter_notebook_config.py",
+		"/Users/roger/LeetCode-Tutorial/.git/COMMIT_EDITMSG",
+		"/Users/roger/Dropbox/new folder 3/1.txt",
+		"/Users/roger/Downloads/Selenium/test.py",
+		"/Users/roger/Downloads/Selenium/verizon_final_csv.py",
+		"/Users/roger/Downloads/Selenium/verizon_starter.py",
+		"/Users/roger/Downloads/Selenium/requirements.txt",
+		"/Users/roger/LeetCode-Tutorial/playground.py",
+		"/Users/roger/Desktop/example.R",
+		"/Users/roger/LeetCode-Tutorial/LeetCode_solution.py",
+		"/Users/roger/Shiny/rogerPro/.git/COMMIT_EDITMSG",
+		"/Users/roger/Shiny/rogerPro/dataMining.R",
+		"/Users/roger/Shiny/rogerPro/helperWalkScore.R",
+		"/Users/roger/Shiny/rogerPro/helperYelpSearch.R",
+		"/Users/roger/Shiny/rogerPro/.gitignore",
+		"/Users/roger/Shiny/rogerPro/BackUpVersion.R",
+		"/Users/roger/Shiny/rogerPro/try.geojson",
+		"/Users/roger/Shiny/rogerPro/try2.json",
+		"/Users/roger/Shiny/rogerPro/ModuleExample.R",
+		"/Users/roger/Shiny/rogerPro/reuseUiExample.R",
+		"/Users/roger/Shiny/rogerPro/www/new_style.css",
+		"/Users/roger/Shiny/rogerPro/server.R",
+		"/Users/roger/Shiny/rogerPro/ui.R",
+		"/Users/roger/Shiny/rogerPro/global.R",
+		"/Users/roger/code/Practice codes/Implement_BackProp.py",
+		"/Users/roger/code/machine-learning/projects/smartcab/smartcab/environment.py",
+		"/Users/roger/code/machine-learning/projects/smartcab/smartcab/planner.py",
+		"/Users/roger/code/machine-learning/projects/smartcab/smartcab/agent.py",
+		"/Users/roger/Downloads/boston_censustracts.json",
+		"/Users/roger/NYCDSA/bootcamp012_homework/01-09BasicGit/RogerRen",
+		"/Users/roger/Downloads/gtfs",
+		"/Users/roger/Desktop/For_reference.py",
+		"/Users/roger/NYCDSA/test/subtest/a1.txt",
+		"/Users/roger/NYCDSA/test/hw1",
+		"/Users/roger/code/deep_learning/DLND/deep-learning/sentiment-network/labels.txt",
+		"/Users/roger/code/Practice codes/Back_Pro.py",
+		"/Users/roger/code/machine-learning/projects/smartcab/smartcab/Multilayer_Perceptrons.py",
+		"/Users/roger/code/Practice codes/implement_SGD.py",
+		"/Users/roger/code/Practice codes/built_network.py",
+		"/Users/roger/code/machine-learning/projects/smartcab/smartcab/simulator.py",
+		"/Users/roger/Downloads/smartcab-master/agent.py",
+		"/Users/roger/code/machine-learning/.git/COMMIT_EDITMSG",
+		"/private/var/folders/2y/j_2pd75157g_mx_jtmgqkmzc0000gn/T/3758015fde.jpg",
+		"/Users/roger/Desktop/hosts",
+		"/private/etc/hosts",
+		"/Users/roger/code/github_repo/finding_donors_e/.git/COMMIT_EDITMSG",
+		"/Users/roger/code/github_repo/boston_housing_e/.git/COMMIT_EDITMSG",
+		"/Users/roger/code/machine-learning/.git/MERGE_MSG",
+		"/Users/roger/code/ai/AIND-Sudoku/README.md",
+		"/Users/roger/code/ai/AIND-Sudoku/solution.py",
+		"/Users/roger/Downloads/5854601-master/markdown.md",
+		"/Users/roger/code/git/recipes/.git/COMMIT_EDITMSG",
+		"/Users/roger/code/git/recipes/cake-recipe.txt",
+		"/Users/roger/code/git/recipes/chili-recipe",
+		"/Users/roger/code/git/recipes/chili-recipe.txt",
+		"/Users/roger/Downloads/lesson_3_reflection_prompts.txt",
+		"/Users/roger/code/asteroids/.git/COMMIT_EDITMSG",
+		"/Users/roger/code/asteroids/game.js",
+		"/Users/roger/code/git/tutorial/.git/COMMIT_EDITMSG",
+		"/Users/roger/code/git/tutorial/.bash_profile",
+		"/Users/roger/code/git/tutorial/here is a test text 1"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 135.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "startFile.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
