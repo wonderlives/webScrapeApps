@@ -175,22 +175,43 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 119.0,
-		"last_filter": "install",
+		"height": 392.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 444.0
+		"width": 412.0
 	},
 	"console":
 	{
 		"height": 157.0,
 		"history":
 		[
+			"hash -r",
+			"sublime.cache_path()",
+			"help()",
+			"x +y",
+			"y = 2",
+			"x = 1",
+			"python",
+			"python -v",
+			"-ver",
+			"version",
+			"help",
+			"`?",
+			"print '2'",
+			"print r",
+			"x =4",
+			"ls",
+			"which python",
 			"int(\"9\"*20)",
 			"\"9\"*8",
 			"def x(r):",
@@ -218,6 +239,11 @@
 	},
 	"file_history":
 	[
+		"/Users/roger/DataScience/Scrape/rogerScrapeApps/startFile.py",
+		"/Users/roger/DataScience/Scrape/rogerScrapeApps/amazonScrape.sublime-project",
+		"/Users/roger/DataScience/Scrape/rogerScrapeApps/Completion Rules.tmPreferences.xml",
+		"/Users/roger/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/roger/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Users/roger/.bash_profile",
 		"/Users/roger/DataScience/Scrape/public-amazon-crawler/export.py",
 		"/Users/roger/.ssh/MyKeyPair.pem",
@@ -297,7 +323,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -369,6 +395,10 @@
 		"height": 135.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
 	{
 		"height": 0.0
 	},

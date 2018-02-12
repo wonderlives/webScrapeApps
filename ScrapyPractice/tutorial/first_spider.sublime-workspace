@@ -135,6 +135,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "tutorial/spiders/__init__.py",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tutorial/spiders/quotes_spider.py",
+			"settings":
+			{
+				"buffer_size": 554,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -243,13 +260,12 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/roger/DataScience/Scrape/rogerScrapeApps/ScrapyPractice/tutorial"
 	],
 	"file_history":
 	[
-		"/Users/roger/DataScience/Scrape/rogerScrapeApps/ScrapyPractice/init.py",
-		"/Users/roger/DataScience/Scrape/rogerScrapeApps/singleCrawler.py",
+		"/Users/roger/DataScience/Scrape/rogerScrapeApps/ScrapyPractice/tutorial/first_spider.sublime-project",
 		"/Users/roger/DataScience/Scrape/rogerScrapeApps/startFile.py",
-		"/Users/roger/DataScience/Scrape/rogerScrapeApps/sftp-config.json",
 		"/Users/roger/DataScience/Scrape/rogerScrapeApps/amazonScrape.sublime-project",
 		"/Users/roger/DataScience/Scrape/rogerScrapeApps/Completion Rules.tmPreferences.xml",
 		"/Users/roger/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
@@ -364,8 +380,70 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "tutorial/spiders/__init__.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"synced": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tutorial/spiders/quotes_spider.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -410,10 +488,10 @@
 	},
 	"output.sftp":
 	{
-		"height": 455.0
+		"height": 126.0
 	},
 	"pinned_build_system": "",
-	"project": "amazonScrape.sublime-project",
+	"project": "first_spider.sublime-project",
 	"replace":
 	{
 		"height": 50.0
