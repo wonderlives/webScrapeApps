@@ -1,9 +1,10 @@
+import parameterSetup
 import redis
 
-# Redis Set-up
-redisHost = "test-001.6lkeyx.0001.usw2.cache.amazonaws.com"
-redisPort = 6379
-redisDb = 0
+# Acqure credentials from parameterSetup 
+redisHost = parameterSetup.redisHost
+redisPort = parameterSetup.redisPort
+redisDb = parameterSetup.redisDb
 
 # Create Redis
 redis = redis.StrictRedis(host=redisHost, port=redisPort, db=redisDb)

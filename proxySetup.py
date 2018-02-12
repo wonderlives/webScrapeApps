@@ -1,19 +1,17 @@
-import os
+import parameterSetup
 import csv
 import random
-# Get curr directory
-current_dir = os.path.dirname(os.path.realpath(__file__))
-# print(current_dir)
 
-with open((current_dir + '/ProxiesList.csv'), 'rb') as f:
+# Retrive credentials from parameterSetup
+proxyUser = parameterSetup.proxyUser
+proxyPW = parameterSetup.proxyPW
+proxyPort = parameterSetup.proxyPort
+
+# Open Proxy csv file
+with open((parameterSetup.currentDir + '/ProxiesList.csv'), 'rb') as f:
     reader = csv.reader(f)
     proxyList = list(reader)
     proxyList = [ip[0] for ip in proxyList]
-
-# print proxyList
-proxyUser = "rogerxren"
-proxyPW = "ptid6Ilm"
-proxyPort = "60099"
 
 
 # generate proxy
@@ -32,4 +30,6 @@ def getRandomProxy():
         "http": proxyUrl,
         "https": proxyUrl
     }
+
+# Test:
 # print(getRandomProxy())
