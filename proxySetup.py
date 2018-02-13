@@ -6,6 +6,7 @@ import random
 proxyUser = parameterSetup.proxyUser
 proxyPW = parameterSetup.proxyPW
 proxyPort = parameterSetup.proxyPort
+proxySocks = parameterSetup.proxySocks
 
 # Open Proxy csv file
 with open((parameterSetup.currentDir + '/ProxiesList.csv'), 'rb') as f:
@@ -24,12 +25,11 @@ def getRandomProxy():
         user=proxyUser,
         passwd=proxyPW,
         ip=proxyIp,
-        port=proxyPort,
+        port=proxySocks,
     )
+    # Test:
+    #print(proxyIp)
     return {
         "http": proxyUrl,
         "https": proxyUrl
     }
-
-# Test:
-# print(getRandomProxy())

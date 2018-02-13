@@ -16,31 +16,31 @@ dBCurrDb = parameterSetup.dBCurrDb
 conn = psycopg2.connect(host=dBSever, user=dBUser, password=dBPw, dbname=dBCurrDb)
 cur = conn.cursor()
 
-# Run Only Once !!!!
 if __name__ == '__main__':
 
-    # Item information table
+    # Drop, Drop, Drop them all!!!!
+    cur.execute("DROP TABLE IF EXISTS itemReview")
     cur.execute("DROP TABLE IF EXISTS itemInfo")
+    cur.execute("DROP TABLE IF EXISTS itemNLP")
+
+    # Item information table
     cur.execute("""CREATE TABLE itemInfo (
-        id          serial PRIMARY KEY,
-        title       varchar(2056),
-        product_url varchar(2056),
-        listing_url varchar(2056),
-        price       varchar(128),
-        primary_img varchar(2056),
-        crawl_time  timestamp
+        asin        varchar(10) PRIMARY KEY,
+        itemTitle   text,
+        itemPrice   real,
+        itemRating  real,
+        reviewCounts integer,
+        crawlTime   timestamp
     );""")
 
     # Item review table
-    cur.execute("DROP TABLE IF EXISTS itemReview")
     cur.execute("""CREATE TABLE itemReview (
-        id          serial PRIMARY KEY,
-        title       varchar(2056),
-        product_url varchar(2056),
-        listing_url varchar(2056),
-        price       varchar(128),
-        primary_img varchar(2056),
-        crawl_time  timestamp
+        reviewID    varchar(14) PRIMARY KEY,
+        asin        varchar(10) REFERENCES itemInfo(asin),
+        reviewTitle text,
+        reviewBody  text,
+        reviewDate  date,
+        reviewUser  text
     );""")
 
     # Item NLP table
@@ -48,10 +48,8 @@ if __name__ == '__main__':
     cur.execute("""CREATE TABLE itemNLP (
         id          serial PRIMARY KEY,
         title       varchar(2056),
-        product_url varchar(2056),
-        listing_url varchar(2056),
-        price       varchar(128),
-        primary_img varchar(2056),
         crawl_time  timestamp
     );""")
+
+    # Commit
     conn.commit()

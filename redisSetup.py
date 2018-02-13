@@ -10,18 +10,23 @@ redisDb = parameterSetup.redisDb
 redis = redis.StrictRedis(host=redisHost, port=redisPort, db=redisDb)
 
 # Test Redis Working
-# for i in range(10000):
+# for i in range(10):
 #     redis.sadd("testItem", i)
+#     redis.sadd("testItem2", i+200)
 #     k = redis.spop("testItem")
 #     print(k.decode('utf-8'))
+#     k = redis.spop("testItem2")
+#     print(k.decode('utf-8'))
 
-# Add url to Redis queue
+# Add
 def addToRedis(url):
     item = url
     return redis.sadd("Col", item)
 
-# Pop url from Redis queue
+
+# Pop
 def removeFromRedis():
     return redis.spop()
 
 
+##### COME BACK LATER FOR BETTER 
